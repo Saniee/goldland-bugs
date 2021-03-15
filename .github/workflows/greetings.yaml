@@ -9,5 +9,5 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Message that will be displayed on users'' first issue'
-        pr-message: 'Message that will be displayed on users'' first pr'
+        issue-message: 'Hello! Since this is your first issue I would love to see you at our discord server for more info about the server! Regards GoldLand Staff!'' first issue'
+        pr-message: 'Hello! Since this is your first pr I would love to see you at our discord server for more info about the server! Regards GoldLand Staff!'' first pr'
